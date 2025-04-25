@@ -1,0 +1,216 @@
+@import "./globall.css";
+.scn {
+  margin-top: 73px;
+  background-image: url(../img/bg-pattern-about-1-mobile-nav-1.svg);
+  background-repeat: no-repeat;
+  /* z-index: -1; */
+  background-position: 1419px bottom;
+}
+
+.div-container {
+  display: flex;
+}
+.scn-name {
+  width: 350px;
+  height: 100px;
+  line-height: 100px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 64px;
+}
+.marks {
+  margin-left: 40px;
+  width: 50px;
+  height: 4px;
+  background-color: var(--color-light-coral);
+  margin-bottom: 22px;
+}
+.scn-tatil {
+  padding-top: 40px;
+  padding-left: 40px;
+  width: 830px;
+  height: 112px;
+
+  font-weight: 600px;
+  font-style: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  margin-bottom: 120px;
+}
+.cta--div {
+}
+.cta__pattern {
+  position: absolute;
+  bottom: -10px;
+  /* right: -100px; */
+}
+
+/* main */
+
+.directors--pe {
+  background-color: var(--color-deep-jungle-green);
+  color: var(--color-white);
+  position: relative;
+}
+.marc1 {
+  position: absolute;
+  top: 0;
+  left: -100px;
+}
+.marc2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.sec-peding {
+}
+.card--name {
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+  padding: 140px 260px 32px 260px;
+  line-height: 48px;
+}
+.cards {
+  padding-bottom: 140px;
+  gap: 30px;
+  top: 769px;
+  left: 169px;
+  display: flex;
+  flex-direction: ;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card {
+  background-color: var(--color-sacramento-state-green);
+  padding: 44px 24px;
+  text-align: center;
+  width: 350px;
+  height: 251px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 32px;
+  position: relative;
+  padding-bottom: 54px;
+}
+
+.card img {
+  /* object-fit: cover; */
+  border-radius: 50%;
+  /* padding: 0px 103px 69px 103px; */
+}
+.img--botton {
+  width: 56px;
+  height: 56px;
+  background-color: var(--color-light-coral);
+  border-radius: 50%;
+  color: var(--color-light-coral);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: -10%;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.6;
+    background-color: var(--color-rapture-blue);
+    color: var(--#012F34);
+  }
+}
+.socials-owe {
+  display: flex;
+  gap: 16px;
+  margin-top: 24px;
+}
+.socials {
+  gap: 16px;
+  color: var(--color-white);
+
+  &:hover {
+    color: var(--color-light-coral);
+    opacity: 0.6;
+    font-size: 25px;
+  }
+}
+.card--aftr {
+  font-weight: 700;
+  margin-top: 16px;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--color-rapture-blue);
+}
+.card--titl {
+  font-weight: 500;
+  font-style: italic;
+  font-size: 15px;
+  line-height: 25px;
+}
+.card--titl2 {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  width: 254px;
+  height: 75px;
+  margin-bottom: 10px;
+}
+.usa {
+  background-color: var(--color-sacramento-state-green);
+}
+.logo__name {
+  padding-top: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700px;
+  font-size: 48px;
+  line-height: 48px;
+  color: var(--color-white);
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  position: relative;
+  gap: 80px;
+  padding-top: 64px;
+  padding-bottom: 140px;
+}
+.iogo__img {
+}
+.aa {
+  gap: 80px;
+}
+/* cta */
+.cta {
+  padding-top: 76px;
+  padding-bottom: 76px;
+  background-color: var(--color-light-coral);
+  position: relative;
+}
+.container {
+}
+.cta__container {
+  display: flex;
+  justify-content: center;
+  gap: 260px;
+}
+.cta-marc5 {
+  position: absolute;
+  bottom: 0px;
+}
+.cta--name {
+  font-weight: 700px;
+  font-size: 48px;
+  line-height: 48px;
+  color: var(--color-sacramento-state-green);
+}
+.marc4 {
+  position: absolute;
+  top: -190px;
+  left: -200px;
+}
